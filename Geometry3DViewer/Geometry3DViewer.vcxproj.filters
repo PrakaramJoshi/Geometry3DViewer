@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Geometry2D">
+      <UniqueIdentifier>{a3b9f25d-3924-41fb-9011-e75cacdb51b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Geometry3D">
+      <UniqueIdentifier>{45c64da5-4fb8-4c79-a787-59f41f044474}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Viewer">
+      <UniqueIdentifier>{f0b7eaab-2d4f-4740-8c1c-71d27dfb2bbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Camera">
+      <UniqueIdentifier>{4a636b35-e386-42df-97fb-4d8d854d458d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI">
+      <UniqueIdentifier>{b9a57525-00ca-416d-a8ae-6235331fdb2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Algorithms">
+      <UniqueIdentifier>{99e961bf-3d5f-4c73-90d5-02e85cb1fd3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Text">
+      <UniqueIdentifier>{62986376-d7c3-4859-a931-bb1bf6a7dfc0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests">
+      <UniqueIdentifier>{eb7bf4f5-135b-43c0-a31c-2cc18d24249e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LogicalPolygonTestHarness\LogicalPolygonTestHarness\CommonGeometry\CG_IO.h">
+      <Filter>Geometry2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LogicalPolygonTestHarness\LogicalPolygonTestHarness\CommonGeometry\CGAlgorithms.h">
+      <Filter>Geometry2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LogicalPolygonTestHarness\LogicalPolygonTestHarness\CommonGeometry\CGBBox.h">
+      <Filter>Geometry2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LogicalPolygonTestHarness\LogicalPolygonTestHarness\CommonGeometry\CGBoolean.h">
+      <Filter>Geometry2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LogicalPolygonTestHarness\LogicalPolygonTestHarness\CommonGeometry\CGCaplessPolygon.h">
+      <Filter>Geometry2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LogicalPolygonTestHarness\LogicalPolygonTestHarness\CommonGeometry\CGCircArc.h">
+      <Filter>Geometry2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LogicalPolygonTestHarness\LogicalPolygonTestHarness\CommonGeometry\CGConstants.h">
+      <Filter>Geometry2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LogicalPolygonTestHarness\LogicalPolygonTestHarness\CommonGeometry\CGExceptions.h">
+      <Filter>Geometry2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LogicalPolygonTestHarness\LogicalPolygonTestHarness\CommonGeometry\CGGeometry.h">
+      <Filter>Geometry2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LogicalPolygonTestHarness\LogicalPolygonTestHarness\CommonGeometry\CGGeometryContainer.h">
+      <Filter>Geometry2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LogicalPolygonTestHarness\LogicalPolygonTestHarness\CommonGeometry\CGGrid.h">
+      <Filter>Geometry2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LogicalPolygonTestHarness\LogicalPolygonTestHarness\CommonGeometry\CGLine.h">
+      <Filter>Geometry2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LogicalPolygonTestHarness\LogicalPolygonTestHarness\CommonGeometry\CGMath.h">
+      <Filter>Geometry2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LogicalPolygonTestHarness\LogicalPolygonTestHarness\CommonGeometry\CGMemoryCache.h">
+      <Filter>Geometry2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LogicalPolygonTestHarness\LogicalPolygonTestHarness\CommonGeometry\CGPoint2D.h">
+      <Filter>Geometry2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LogicalPolygonTestHarness\LogicalPolygonTestHarness\CommonGeometry\CGPointContainer.h">
+      <Filter>Geometry2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LogicalPolygonTestHarness\LogicalPolygonTestHarness\CommonGeometry\CGPolygon.h">
+      <Filter>Geometry2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LogicalPolygonTestHarness\LogicalPolygonTestHarness\CommonGeometry\CGPolyline.h">
+      <Filter>Geometry2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LogicalPolygonTestHarness\LogicalPolygonTestHarness\CommonGeometry\CGQuadTree.h">
+      <Filter>Geometry2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LogicalPolygonTestHarness\LogicalPolygonTestHarness\CommonGeometry\CGSegment.h">
+      <Filter>Geometry2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LogicalPolygonTestHarness\LogicalPolygonTestHarness\CommonGeometry\CGText.h">
+      <Filter>Geometry2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LogicalPolygonTestHarness\LogicalPolygonTestHarness\CommonGeometry\CGTransform.h">
+      <Filter>Geometry2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Geometry3D\CGLine3D.h">
+      <Filter>Geometry3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Geometry3D\CGPoint3D.h">
+      <Filter>Geometry3D</Filter>
+    </ClInclude>
+    <ClInclude Include="GeometryViewer.h">
+      <Filter>Viewer</Filter>
+    </ClInclude>
+    <ClInclude Include="application_settings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Geometry3D\CGCuboid.h">
+      <Filter>Geometry3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Geometry3D\CGSurface3D.h">
+      <Filter>Geometry3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Geometry3D\CGTriangle3D.h">
+      <Filter>Geometry3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Geometry3D\CGVector3D.h">
+      <Filter>Geometry3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Geometry3D\CG3DConstants.h">
+      <Filter>Geometry3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\CameraUtils\CameraView.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\GUI\AceButton.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\GUI\GUIElementManager.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\GUI\BaseGUIObject.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Algorithms\MultithreadedSort.h">
+      <Filter>Algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\OpenGL\TextRender.h">
+      <Filter>Text</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\OpenGL\TextManager.h">
+      <Filter>Text</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\GUI\MenuBar.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Tests.h">
+      <Filter>Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="Layer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Geometry3D\CGSphere.h">
+      <Filter>Geometry3D</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry3DViewer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LogicalPolygonTestHarness\LogicalPolygonTestHarness\CommonGeometry\CG_IO.cpp">
+      <Filter>Geometry2D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LogicalPolygonTestHarness\LogicalPolygonTestHarness\CommonGeometry\CGAlgorithms.cpp">
+      <Filter>Geometry2D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LogicalPolygonTestHarness\LogicalPolygonTestHarness\CommonGeometry\CGBBox.cpp">
+      <Filter>Geometry2D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LogicalPolygonTestHarness\LogicalPolygonTestHarness\CommonGeometry\CGCaplessPolygon.cpp">
+      <Filter>Geometry2D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LogicalPolygonTestHarness\LogicalPolygonTestHarness\CommonGeometry\CGCircArc.cpp">
+      <Filter>Geometry2D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LogicalPolygonTestHarness\LogicalPolygonTestHarness\CommonGeometry\CGGeometry.cpp">
+      <Filter>Geometry2D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LogicalPolygonTestHarness\LogicalPolygonTestHarness\CommonGeometry\CGGeometryContainer.cpp">
+      <Filter>Geometry2D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LogicalPolygonTestHarness\LogicalPolygonTestHarness\CommonGeometry\CGLine.cpp">
+      <Filter>Geometry2D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LogicalPolygonTestHarness\LogicalPolygonTestHarness\CommonGeometry\CGMath.cpp">
+      <Filter>Geometry2D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LogicalPolygonTestHarness\LogicalPolygonTestHarness\CommonGeometry\CGPoint2D.cpp">
+      <Filter>Geometry2D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LogicalPolygonTestHarness\LogicalPolygonTestHarness\CommonGeometry\CGPointContainer.cpp">
+      <Filter>Geometry2D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LogicalPolygonTestHarness\LogicalPolygonTestHarness\CommonGeometry\CGPolygon.cpp">
+      <Filter>Geometry2D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LogicalPolygonTestHarness\LogicalPolygonTestHarness\CommonGeometry\CGPolyline.cpp">
+      <Filter>Geometry2D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LogicalPolygonTestHarness\LogicalPolygonTestHarness\CommonGeometry\CGSegment.cpp">
+      <Filter>Geometry2D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LogicalPolygonTestHarness\LogicalPolygonTestHarness\CommonGeometry\CGTransform.cpp">
+      <Filter>Geometry2D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Geometry3D\CGLine3D.cpp">
+      <Filter>Geometry3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Geometry3D\CGPoint3D.cpp">
+      <Filter>Geometry3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LogicalPolygonTestHarness\LogicalPolygonTestHarness\CommonGeometry\CGBoolean.cpp">
+      <Filter>Geometry2D</Filter>
+    </ClCompile>
+    <ClCompile Include="GeometryViewer.cpp">
+      <Filter>Viewer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Geometry3D\CGCuboid.cpp">
+      <Filter>Geometry3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Geometry3D\CGSurface3D.cpp">
+      <Filter>Geometry3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Geometry3D\CGTriangle3D.cpp">
+      <Filter>Geometry3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Geometry3D\CGVector3D.cpp">
+      <Filter>Geometry3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\CameraUtils\CameraView.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\GUI\AceButton.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\GUI\GUIElementManager.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\GUI\BaseGUIObject.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\OpenGL\TextRender.cpp">
+      <Filter>Text</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\OpenGL\TextManager.cpp">
+      <Filter>Text</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\GUI\MenuBar.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="Layer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Geometry3D\CGSphere.cpp">
+      <Filter>Geometry3D</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,313 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="ReleaseNoOpt|Win32">
+      <Configuration>ReleaseNoOpt</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="ReleaseNoOpt|x64">
+      <Configuration>ReleaseNoOpt</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E93F2496-D11E-42EE-BF5F-558EFAD03C3A}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Geometry3DViewer</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseNoOpt|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseNoOpt|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseNoOpt|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseNoOpt|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>B:\Workspace\Common\OpenGL;C:\Program Files %28x86%29\Microsoft Visual Studio 12.0\VC\freetype-gl\include;B:\Workspace\Common\GUI;B:\Workspace\Common\CameraUtils;B:\Workspace\Common\Geometry3D;.;C:\Program Files %28x86%29\Microsoft Visual Studio 12.0\VC\glew-1.11.0\include;C:\Program Files %28x86%29\Microsoft Visual Studio 12.0\VC\glew-1.11.0\include\GL;C:\Program Files %28x86%29\Microsoft Visual Studio 12.0\VC\GLFW;C:\Program Files %28x86%29\Microsoft Visual Studio 12.0\VC\boost;B:\Workspace\LogicalPolygonTestHarness\LogicalPolygonTestHarness\CommonGeometry;B:\Workspace\Common\Utils;B:\Workspace\Common;$(IncludePath);C:\Program Files %28x86%29\Microsoft Visual Studio 12.0\VC\glm</IncludePath>
+    <LibraryPath>C:\Program Files %28x86%29\Microsoft Visual Studio 12.0\VC\freetype\lib;C:\Program Files %28x86%29\Microsoft Visual Studio 12.0\VC\freetype-gl\lib;C:\Program Files %28x86%29\Microsoft Visual Studio 12.0\VC\boost\stage\lib64;$(LibraryPath);C:\Program Files %28x86%29\Microsoft Visual Studio 12.0\VC\glew-1.11.0\lib\Release\x64;C:\Program Files %28x86%29\Microsoft Visual Studio 12.0\VC\GLFW\lib-msvc120</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseNoOpt|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(VCInstallDir)AntTweakBar\include;B:\Workspace\Common\OpenGL;C:\Program Files %28x86%29\Microsoft Visual Studio 12.0\VC\freetype-gl\include;B:\Workspace\Common\GUI;B:\Workspace\Common\CameraUtils;B:\Workspace\Common\Geometry3D;.;C:\Program Files %28x86%29\Microsoft Visual Studio 12.0\VC\glew-1.11.0\include;C:\Program Files %28x86%29\Microsoft Visual Studio 12.0\VC\glew-1.11.0\include\GL;C:\Program Files %28x86%29\Microsoft Visual Studio 12.0\VC\GLFW;C:\Program Files %28x86%29\Microsoft Visual Studio 12.0\VC\boost;B:\Workspace\LogicalPolygonTestHarness\LogicalPolygonTestHarness\CommonGeometry;B:\Workspace\Common\Utils;B:\Workspace\Common;$(IncludePath);C:\Program Files %28x86%29\Microsoft Visual Studio 12.0\VC\glm</IncludePath>
+    <LibraryPath>$(VCInstallDir)AntTweakBar\lib;C:\Program Files %28x86%29\Microsoft Visual Studio 12.0\VC\freetype\lib;C:\Program Files %28x86%29\Microsoft Visual Studio 12.0\VC\freetype-gl\lib;C:\Program Files %28x86%29\Microsoft Visual Studio 12.0\VC\boost\stage\lib64;$(LibraryPath);C:\Program Files %28x86%29\Microsoft Visual Studio 12.0\VC\glew-1.11.0\lib\Release\x64;C:\Program Files %28x86%29\Microsoft Visual Studio 12.0\VC\GLFW\lib-msvc120</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseNoOpt|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(VCInstallDir)AntTweakBar\include;B:\Workspace\Common\OpenGL;C:\Program Files %28x86%29\Microsoft Visual Studio 12.0\VC\freetype-gl\include;B:\Workspace\Common\GUI;B:\Workspace\Common\CameraUtils;B:\Workspace\Common\Geometry3D;.;C:\Program Files %28x86%29\Microsoft Visual Studio 12.0\VC\glew-1.11.0\include;C:\Program Files %28x86%29\Microsoft Visual Studio 12.0\VC\glew-1.11.0\include\GL;C:\Program Files %28x86%29\Microsoft Visual Studio 12.0\VC\GLFW;C:\Program Files %28x86%29\Microsoft Visual Studio 12.0\VC\boost;B:\Workspace\LogicalPolygonTestHarness\LogicalPolygonTestHarness\CommonGeometry;B:\Workspace\Common\Utils;B:\Workspace\Common;$(IncludePath);C:\Program Files %28x86%29\Microsoft Visual Studio 12.0\VC\glm</IncludePath>
+    <LibraryPath>$(VCInstallDir)AntTweakBar\lib;C:\Program Files %28x86%29\Microsoft Visual Studio 12.0\VC\freetype\lib;C:\Program Files %28x86%29\Microsoft Visual Studio 12.0\VC\freetype-gl\lib;C:\Program Files %28x86%29\Microsoft Visual Studio 12.0\VC\boost\stage\lib64;$(LibraryPath);C:\Program Files %28x86%29\Microsoft Visual Studio 12.0\VC\glew-1.11.0\lib\Release\x64;C:\Program Files %28x86%29\Microsoft Visual Studio 12.0\VC\GLFW\lib-msvc120</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions);;_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>freetype.lib;freetype-gl.lib;glfw3dll.lib;glu32.lib;opengl32.lib;glew32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseNoOpt|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions);;_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>AntTweakBar64.lib;freetype.lib;freetype-gl.lib;glfw3dll.lib;glu32.lib;opengl32.lib;glew32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseNoOpt|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>Disabled</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>false</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions);;_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <OmitFramePointers>false</OmitFramePointers>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>AntTweakBar64.lib;freetype.lib;freetype-gl.lib;glfw3dll.lib;glu32.lib;opengl32.lib;glew32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Common\Algorithms\MultithreadedSort.h" />
+    <ClInclude Include="..\..\Common\CameraUtils\CameraView.h" />
+    <ClInclude Include="..\..\Common\Geometry3D\CG3DConstants.h" />
+    <ClInclude Include="..\..\Common\Geometry3D\CGCuboid.h" />
+    <ClInclude Include="..\..\Common\Geometry3D\CGLine3D.h" />
+    <ClInclude Include="..\..\Common\Geometry3D\CGPoint3D.h" />
+    <ClInclude Include="..\..\Common\Geometry3D\CGSphere.h" />
+    <ClInclude Include="..\..\Common\Geometry3D\CGSurface3D.h" />
+    <ClInclude Include="..\..\Common\Geometry3D\CGTriangle3D.h" />
+    <ClInclude Include="..\..\Common\Geometry3D\CGVector3D.h" />
+    <ClInclude Include="..\..\Common\GUI\AceButton.h" />
+    <ClInclude Include="..\..\Common\GUI\BaseGUIObject.h" />
+    <ClInclude Include="..\..\Common\GUI\GUIElementManager.h" />
+    <ClInclude Include="..\..\Common\GUI\MenuBar.h" />
+    <ClInclude Include="..\..\Common\OpenGL\TextManager.h" />
+    <ClInclude Include="..\..\Common\OpenGL\TextRender.h" />
+    <ClInclude Include="..\..\LogicalPolygonTestHarness\LogicalPolygonTestHarness\CommonGeometry\CGAlgorithms.h" />
+    <ClInclude Include="..\..\LogicalPolygonTestHarness\LogicalPolygonTestHarness\CommonGeometry\CGBBox.h" />
+    <ClInclude Include="..\..\LogicalPolygonTestHarness\LogicalPolygonTestHarness\CommonGeometry\CGBoolean.h" />
+    <ClInclude Include="..\..\LogicalPolygonTestHarness\LogicalPolygonTestHarness\CommonGeometry\CGCaplessPolygon.h" />
+    <ClInclude Include="..\..\LogicalPolygonTestHarness\LogicalPolygonTestHarness\CommonGeometry\CGCircArc.h" />
+    <ClInclude Include="..\..\LogicalPolygonTestHarness\LogicalPolygonTestHarness\CommonGeometry\CGConstants.h" />
+    <ClInclude Include="..\..\LogicalPolygonTestHarness\LogicalPolygonTestHarness\CommonGeometry\CGExceptions.h" />
+    <ClInclude Include="..\..\LogicalPolygonTestHarness\LogicalPolygonTestHarness\CommonGeometry\CGGeometry.h" />
+    <ClInclude Include="..\..\LogicalPolygonTestHarness\LogicalPolygonTestHarness\CommonGeometry\CGGeometryContainer.h" />
+    <ClInclude Include="..\..\LogicalPolygonTestHarness\LogicalPolygonTestHarness\CommonGeometry\CGGrid.h" />
+    <ClInclude Include="..\..\LogicalPolygonTestHarness\LogicalPolygonTestHarness\CommonGeometry\CGLine.h" />
+    <ClInclude Include="..\..\LogicalPolygonTestHarness\LogicalPolygonTestHarness\CommonGeometry\CGMath.h" />
+    <ClInclude Include="..\..\LogicalPolygonTestHarness\LogicalPolygonTestHarness\CommonGeometry\CGMemoryCache.h" />
+    <ClInclude Include="..\..\LogicalPolygonTestHarness\LogicalPolygonTestHarness\CommonGeometry\CGPoint2D.h" />
+    <ClInclude Include="..\..\LogicalPolygonTestHarness\LogicalPolygonTestHarness\CommonGeometry\CGPointContainer.h" />
+    <ClInclude Include="..\..\LogicalPolygonTestHarness\LogicalPolygonTestHarness\CommonGeometry\CGPolygon.h" />
+    <ClInclude Include="..\..\LogicalPolygonTestHarness\LogicalPolygonTestHarness\CommonGeometry\CGPolyline.h" />
+    <ClInclude Include="..\..\LogicalPolygonTestHarness\LogicalPolygonTestHarness\CommonGeometry\CGQuadTree.h" />
+    <ClInclude Include="..\..\LogicalPolygonTestHarness\LogicalPolygonTestHarness\CommonGeometry\CGSegment.h" />
+    <ClInclude Include="..\..\LogicalPolygonTestHarness\LogicalPolygonTestHarness\CommonGeometry\CGText.h" />
+    <ClInclude Include="..\..\LogicalPolygonTestHarness\LogicalPolygonTestHarness\CommonGeometry\CGTransform.h" />
+    <ClInclude Include="..\..\LogicalPolygonTestHarness\LogicalPolygonTestHarness\CommonGeometry\CG_IO.h" />
+    <ClInclude Include="application_settings.h" />
+    <ClInclude Include="GeometryViewer.h" />
+    <ClInclude Include="Layer.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="Tests.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Common\CameraUtils\CameraView.cpp" />
+    <ClCompile Include="..\..\Common\Geometry3D\CGCuboid.cpp" />
+    <ClCompile Include="..\..\Common\Geometry3D\CGLine3D.cpp" />
+    <ClCompile Include="..\..\Common\Geometry3D\CGPoint3D.cpp" />
+    <ClCompile Include="..\..\Common\Geometry3D\CGSphere.cpp" />
+    <ClCompile Include="..\..\Common\Geometry3D\CGSurface3D.cpp" />
+    <ClCompile Include="..\..\Common\Geometry3D\CGTriangle3D.cpp" />
+    <ClCompile Include="..\..\Common\Geometry3D\CGVector3D.cpp" />
+    <ClCompile Include="..\..\Common\GUI\AceButton.cpp" />
+    <ClCompile Include="..\..\Common\GUI\BaseGUIObject.cpp" />
+    <ClCompile Include="..\..\Common\GUI\GUIElementManager.cpp" />
+    <ClCompile Include="..\..\Common\GUI\MenuBar.cpp" />
+    <ClCompile Include="..\..\Common\OpenGL\TextManager.cpp" />
+    <ClCompile Include="..\..\Common\OpenGL\TextRender.cpp" />
+    <ClCompile Include="..\..\LogicalPolygonTestHarness\LogicalPolygonTestHarness\CommonGeometry\CGAlgorithms.cpp" />
+    <ClCompile Include="..\..\LogicalPolygonTestHarness\LogicalPolygonTestHarness\CommonGeometry\CGBBox.cpp" />
+    <ClCompile Include="..\..\LogicalPolygonTestHarness\LogicalPolygonTestHarness\CommonGeometry\CGBoolean.cpp" />
+    <ClCompile Include="..\..\LogicalPolygonTestHarness\LogicalPolygonTestHarness\CommonGeometry\CGCaplessPolygon.cpp" />
+    <ClCompile Include="..\..\LogicalPolygonTestHarness\LogicalPolygonTestHarness\CommonGeometry\CGCircArc.cpp" />
+    <ClCompile Include="..\..\LogicalPolygonTestHarness\LogicalPolygonTestHarness\CommonGeometry\CGGeometry.cpp" />
+    <ClCompile Include="..\..\LogicalPolygonTestHarness\LogicalPolygonTestHarness\CommonGeometry\CGGeometryContainer.cpp" />
+    <ClCompile Include="..\..\LogicalPolygonTestHarness\LogicalPolygonTestHarness\CommonGeometry\CGLine.cpp" />
+    <ClCompile Include="..\..\LogicalPolygonTestHarness\LogicalPolygonTestHarness\CommonGeometry\CGMath.cpp" />
+    <ClCompile Include="..\..\LogicalPolygonTestHarness\LogicalPolygonTestHarness\CommonGeometry\CGPoint2D.cpp" />
+    <ClCompile Include="..\..\LogicalPolygonTestHarness\LogicalPolygonTestHarness\CommonGeometry\CGPointContainer.cpp" />
+    <ClCompile Include="..\..\LogicalPolygonTestHarness\LogicalPolygonTestHarness\CommonGeometry\CGPolygon.cpp" />
+    <ClCompile Include="..\..\LogicalPolygonTestHarness\LogicalPolygonTestHarness\CommonGeometry\CGPolyline.cpp" />
+    <ClCompile Include="..\..\LogicalPolygonTestHarness\LogicalPolygonTestHarness\CommonGeometry\CGSegment.cpp" />
+    <ClCompile Include="..\..\LogicalPolygonTestHarness\LogicalPolygonTestHarness\CommonGeometry\CGTransform.cpp" />
+    <ClCompile Include="..\..\LogicalPolygonTestHarness\LogicalPolygonTestHarness\CommonGeometry\CG_IO.cpp" />
+    <ClCompile Include="Geometry3DViewer.cpp" />
+    <ClCompile Include="GeometryViewer.cpp" />
+    <ClCompile Include="Layer.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="Tests.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
